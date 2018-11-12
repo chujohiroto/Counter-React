@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
 //import Count from './count';
 var agent = require("superagent");
 
@@ -42,9 +43,9 @@ class App extends Component {
                 <button onClick={this.saveCount(this.state.count)}>
                     Save
                 </button>
-                <button onClick={this.loadCount}>
+                <Button variant="contained" color="primary" onClick={this.loadCount}>
                     Load
-                </button>
+                </Button>
             </React.Fragment>
         )
     }
