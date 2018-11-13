@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Count from './count';
 
-class Count extends Component {
-
+class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>Count:{this.props.value}</h1>;
+                <Count />
             </React.Fragment>
-        )
+        );
     }
 }
-export default Count;
+
+export default Main;
