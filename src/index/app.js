@@ -9,9 +9,6 @@ class App extends Component {
             <React.Fragment>
                 <Header />
                 <h1>Hello, React! Counter Sample</h1>
-                <div>
-                    <h3>Chujo Hiroto</h3>
-                </div>
                 <Main />
             </React.Fragment >
         )
